@@ -1,0 +1,65 @@
+[
+  {
+    "id": "napoli-capri",
+    "portoPartenza": "Napoli (Beverello)",
+    "portoArrivo": "Capri",
+    "isola": "Capri",
+    "durataMin": 45,
+    "slug": "napoli-capri",
+    "note": "Aliscafi 45 min dal Molo Beverello, traghetti 80 min da Calata Porta di Massa"
+  },
+  {
+    "id": "napoli-ischia",
+    "portoPartenza": "Napoli",
+    "portoArrivo": "Ischia",
+    "isola": "Ischia",
+    "durataMin": 50,
+    "slug": "napoli-ischia",
+    "note": "Aliscafi 50 min, traghetti 90 min. Arrivo a Ischia Porto o Casamicciola"
+  },
+  {
+    "id": "pozzuoli-procida",
+    "portoPartenza": "Pozzuoli",
+    "portoArrivo": "Procida",
+    "isola": "Procida",
+    "durataMin": 35,
+    "slug": "pozzuoli-procida",
+    "note": "Aliscafi 20 min, traghetti 35-40 min"
+  },
+  {
+    "id": "anzio-ponza",
+    "portoPartenza": "Anzio",
+    "portoArrivo": "Ponza",
+    "isola": "Ponza",
+    "durataMin": 70,
+    "slug": "anzio-ponza",
+    "note": "Servizio stagionale (estate). Nave veloce 70 min, traghetto 150 min"
+  },
+  {
+    "id": "formia-ponza",
+    "portoPartenza": "Formia",
+    "portoArrivo": "Ponza",
+    "isola": "Ponza",
+    "durataMin": 80,
+    "slug": "formia-ponza",
+    "note": "Aliscafo 80 min, traghetto 150 min. Tutto l anno"
+  },
+  {
+    "id": "piombino-portoferraio",
+    "portoPartenza": "Piombino",
+    "portoArrivo": "Portoferraio",
+    "isola": "Elba",
+    "durataMin": 60,
+    "slug": "piombino-portoferraio",
+    "note": "Traghetti con imbarco auto. 3 compagnie, partenze frequenti"
+  },
+  {
+    "id": "trapani-favignana",
+    "portoPartenza": "Trapani",
+    "portoArrivo": "Favignana",
+    "isola": "Favignana",
+    "durataMin": 25,
+    "slug": "trapani-favignana",
+    "note": "Aliscafo 25 min, traghetto 70 min. Fino a 20 corse/giorno in estate"
+  }
+]

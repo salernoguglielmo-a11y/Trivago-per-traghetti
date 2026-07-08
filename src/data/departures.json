@@ -1,0 +1,962 @@
+[
+  {
+    "id": "nc-snav-0715",
+    "routeId": "napoli-capri",
+    "orario": "07:15",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-0745",
+    "routeId": "napoli-capri",
+    "orario": "07:45",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-0925",
+    "routeId": "napoli-capri",
+    "orario": "09:25",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-0950",
+    "routeId": "napoli-capri",
+    "orario": "09:50",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-1145",
+    "routeId": "napoli-capri",
+    "orario": "11:45",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-1440",
+    "routeId": "napoli-capri",
+    "orario": "14:40",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-1550",
+    "routeId": "napoli-capri",
+    "orario": "15:50",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-1925",
+    "routeId": "napoli-capri",
+    "orario": "19:25",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-snav-2135",
+    "routeId": "napoli-capri",
+    "orario": "21:35",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "nc-nlg-0805",
+    "routeId": "napoli-capri",
+    "orario": "08:05",
+    "compagnia": "NLG",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23.5,
+    "prezzoUfficialeBambino": 16,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-nlg-1135",
+    "routeId": "napoli-capri",
+    "orario": "11:35",
+    "compagnia": "NLG",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23.5,
+    "prezzoUfficialeBambino": 16,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-nlg-1630",
+    "routeId": "napoli-capri",
+    "orario": "16:30",
+    "compagnia": "NLG",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23.5,
+    "prezzoUfficialeBambino": 16,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-nlg-1915",
+    "routeId": "napoli-capri",
+    "orario": "19:15",
+    "compagnia": "NLG",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 21.5,
+    "prezzoUfficialeBambino": 16,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-0535",
+    "routeId": "napoli-capri",
+    "orario": "05:35",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-0700",
+    "routeId": "napoli-capri",
+    "orario": "07:00",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-0920",
+    "routeId": "napoli-capri",
+    "orario": "09:20",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-1130",
+    "routeId": "napoli-capri",
+    "orario": "11:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-1430",
+    "routeId": "napoli-capri",
+    "orario": "14:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-1740",
+    "routeId": "napoli-capri",
+    "orario": "17:40",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-care-1940",
+    "routeId": "napoli-capri",
+    "orario": "19:40",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 9.8,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-carev-0830",
+    "routeId": "napoli-capri",
+    "orario": "08:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "nave_veloce",
+    "prezzoUfficialeAdulto": 20.3,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "nc-carev-1630",
+    "routeId": "napoli-capri",
+    "orario": "16:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "nave_veloce",
+    "prezzoUfficialeAdulto": 20.3,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ni-ali-0630",
+    "routeId": "napoli-ischia",
+    "orario": "06:30",
+    "compagnia": "Alilauro",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 14,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-ali-0830",
+    "routeId": "napoli-ischia",
+    "orario": "08:30",
+    "compagnia": "Alilauro",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 14,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-ali-1050",
+    "routeId": "napoli-ischia",
+    "orario": "10:50",
+    "compagnia": "Alilauro",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 14,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-ali-1330",
+    "routeId": "napoli-ischia",
+    "orario": "13:30",
+    "compagnia": "Alilauro",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 14,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-ali-1600",
+    "routeId": "napoli-ischia",
+    "orario": "16:00",
+    "compagnia": "Alilauro",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 14,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-ali-1830",
+    "routeId": "napoli-ischia",
+    "orario": "18:30",
+    "compagnia": "Alilauro",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 14,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ni-snav-0800",
+    "routeId": "napoli-ischia",
+    "orario": "08:00",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23,
+    "prezzoUfficialeBambino": 14.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-snav-1100",
+    "routeId": "napoli-ischia",
+    "orario": "11:00",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23,
+    "prezzoUfficialeBambino": 14.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-snav-1500",
+    "routeId": "napoli-ischia",
+    "orario": "15:00",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23,
+    "prezzoUfficialeBambino": 14.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-snav-1900",
+    "routeId": "napoli-ischia",
+    "orario": "19:00",
+    "compagnia": "SNAV",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 23,
+    "prezzoUfficialeBambino": 14.5,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ni-care-0600",
+    "routeId": "napoli-ischia",
+    "orario": "06:00",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 13.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-care-0930",
+    "routeId": "napoli-ischia",
+    "orario": "09:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 13.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-care-1230",
+    "routeId": "napoli-ischia",
+    "orario": "12:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 13.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-care-1800",
+    "routeId": "napoli-ischia",
+    "orario": "18:00",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 13.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-med-0700",
+    "routeId": "napoli-ischia",
+    "orario": "07:00",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 8.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-med-1100",
+    "routeId": "napoli-ischia",
+    "orario": "11:00",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 8.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-med-1500",
+    "routeId": "napoli-ischia",
+    "orario": "15:00",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 8.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "ni-med-1930",
+    "routeId": "napoli-ischia",
+    "orario": "19:30",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 14,
+    "prezzoUfficialeBambino": 8.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-med-0645",
+    "routeId": "pozzuoli-procida",
+    "orario": "06:45",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 10,
+    "prezzoUfficialeBambino": 7,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-med-0830",
+    "routeId": "pozzuoli-procida",
+    "orario": "08:30",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 10,
+    "prezzoUfficialeBambino": 7,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-med-1120",
+    "routeId": "pozzuoli-procida",
+    "orario": "11:20",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 10,
+    "prezzoUfficialeBambino": 7,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-med-1330",
+    "routeId": "pozzuoli-procida",
+    "orario": "13:30",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 10,
+    "prezzoUfficialeBambino": 7,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-med-1640",
+    "routeId": "pozzuoli-procida",
+    "orario": "16:40",
+    "compagnia": "Medmar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 10,
+    "prezzoUfficialeBambino": 7,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-care-0730",
+    "routeId": "pozzuoli-procida",
+    "orario": "07:30",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 9.5,
+    "prezzoUfficialeBambino": 6.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-care-0945",
+    "routeId": "pozzuoli-procida",
+    "orario": "09:45",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 9.5,
+    "prezzoUfficialeBambino": 6.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-care-1200",
+    "routeId": "pozzuoli-procida",
+    "orario": "12:00",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 9.5,
+    "prezzoUfficialeBambino": 6.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-care-1500",
+    "routeId": "pozzuoli-procida",
+    "orario": "15:00",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 9.5,
+    "prezzoUfficialeBambino": 6.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-care-1815",
+    "routeId": "pozzuoli-procida",
+    "orario": "18:15",
+    "compagnia": "Caremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 9.5,
+    "prezzoUfficialeBambino": 6.5,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pp-ges-0715",
+    "routeId": "pozzuoli-procida",
+    "orario": "07:15",
+    "compagnia": "Gestur",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 15.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "pp-ges-1000",
+    "routeId": "pozzuoli-procida",
+    "orario": "10:00",
+    "compagnia": "Gestur",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 15.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "pp-ges-1400",
+    "routeId": "pozzuoli-procida",
+    "orario": "14:00",
+    "compagnia": "Gestur",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 15.5,
+    "prezzoUfficialeBambino": 9.5,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ap-vet-0800",
+    "routeId": "anzio-ponza",
+    "orario": "08:00",
+    "compagnia": "Vetor",
+    "tipoMezzo": "nave_veloce",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ap-vet-0930",
+    "routeId": "anzio-ponza",
+    "orario": "09:30",
+    "compagnia": "Vetor",
+    "tipoMezzo": "nave_veloce",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ap-vet-1700",
+    "routeId": "anzio-ponza",
+    "orario": "17:00",
+    "compagnia": "Vetor",
+    "tipoMezzo": "nave_veloce",
+    "prezzoUfficialeAdulto": 25,
+    "prezzoUfficialeBambino": 15,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ap-laz-0800",
+    "routeId": "anzio-ponza",
+    "orario": "08:00",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "ap-laz-1600",
+    "routeId": "anzio-ponza",
+    "orario": "16:00",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "fp-laz-0800",
+    "routeId": "formia-ponza",
+    "orario": "08:00",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "fp-laz-1430",
+    "routeId": "formia-ponza",
+    "orario": "14:30",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "fp-laz-1815",
+    "routeId": "formia-ponza",
+    "orario": "18:15",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "fp-lazv-0900",
+    "routeId": "formia-ponza",
+    "orario": "09:00",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 28,
+    "prezzoUfficialeBambino": 17,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "fp-lazv-1700",
+    "routeId": "formia-ponza",
+    "orario": "17:00",
+    "compagnia": "Laziomar",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 28,
+    "prezzoUfficialeBambino": 17,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "pe-mob-0530",
+    "routeId": "piombino-portoferraio",
+    "orario": "05:30",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-mob-0730",
+    "routeId": "piombino-portoferraio",
+    "orario": "07:30",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-mob-0930",
+    "routeId": "piombino-portoferraio",
+    "orario": "09:30",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-mob-1200",
+    "routeId": "piombino-portoferraio",
+    "orario": "12:00",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-mob-1500",
+    "routeId": "piombino-portoferraio",
+    "orario": "15:00",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-mob-1800",
+    "routeId": "piombino-portoferraio",
+    "orario": "18:00",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-mob-2100",
+    "routeId": "piombino-portoferraio",
+    "orario": "21:00",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "pe-mob-2230",
+    "routeId": "piombino-portoferraio",
+    "orario": "22:30",
+    "compagnia": "Moby",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 13,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "pe-tor-0630",
+    "routeId": "piombino-portoferraio",
+    "orario": "06:30",
+    "compagnia": "Toremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 11,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-tor-0900",
+    "routeId": "piombino-portoferraio",
+    "orario": "09:00",
+    "compagnia": "Toremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 11,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-tor-1130",
+    "routeId": "piombino-portoferraio",
+    "orario": "11:30",
+    "compagnia": "Toremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 11,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-tor-1400",
+    "routeId": "piombino-portoferraio",
+    "orario": "14:00",
+    "compagnia": "Toremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 11,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-tor-1700",
+    "routeId": "piombino-portoferraio",
+    "orario": "17:00",
+    "compagnia": "Toremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 11,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-tor-2000",
+    "routeId": "piombino-portoferraio",
+    "orario": "20:00",
+    "compagnia": "Toremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 22,
+    "prezzoUfficialeBambino": 11,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "pe-blu-0700",
+    "routeId": "piombino-portoferraio",
+    "orario": "07:00",
+    "compagnia": "BluNavy",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-blu-1030",
+    "routeId": "piombino-portoferraio",
+    "orario": "10:30",
+    "compagnia": "BluNavy",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-blu-1330",
+    "routeId": "piombino-portoferraio",
+    "orario": "13:30",
+    "compagnia": "BluNavy",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-blu-1630",
+    "routeId": "piombino-portoferraio",
+    "orario": "16:30",
+    "compagnia": "BluNavy",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "pe-blu-1930",
+    "routeId": "piombino-portoferraio",
+    "orario": "19:30",
+    "compagnia": "BluNavy",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 20,
+    "prezzoUfficialeBambino": 12,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "tf-lib-0700",
+    "routeId": "trapani-favignana",
+    "orario": "07:00",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-lib-0815",
+    "routeId": "trapani-favignana",
+    "orario": "08:15",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-lib-0930",
+    "routeId": "trapani-favignana",
+    "orario": "09:30",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-lib-1100",
+    "routeId": "trapani-favignana",
+    "orario": "11:00",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-lib-1230",
+    "routeId": "trapani-favignana",
+    "orario": "12:30",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "tf-lib-1400",
+    "routeId": "trapani-favignana",
+    "orario": "14:00",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-lib-1530",
+    "routeId": "trapani-favignana",
+    "orario": "15:30",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "tf-lib-1700",
+    "routeId": "trapani-favignana",
+    "orario": "17:00",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-lib-1830",
+    "routeId": "trapani-favignana",
+    "orario": "18:30",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "tf-lib-2000",
+    "routeId": "trapani-favignana",
+    "orario": "20:00",
+    "compagnia": "Liberty Lines",
+    "tipoMezzo": "aliscafo",
+    "prezzoUfficialeAdulto": 13.8,
+    "prezzoUfficialeBambino": 8.3,
+    "stagionalita": "estate"
+  },
+  {
+    "id": "tf-sir-0730",
+    "routeId": "trapani-favignana",
+    "orario": "07:30",
+    "compagnia": "Siremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 11.83,
+    "prezzoUfficialeBambino": 7.1,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-sir-1015",
+    "routeId": "trapani-favignana",
+    "orario": "10:15",
+    "compagnia": "Siremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 11.83,
+    "prezzoUfficialeBambino": 7.1,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-sir-1330",
+    "routeId": "trapani-favignana",
+    "orario": "13:30",
+    "compagnia": "Siremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 11.83,
+    "prezzoUfficialeBambino": 7.1,
+    "stagionalita": "tutto_anno"
+  },
+  {
+    "id": "tf-sir-1800",
+    "routeId": "trapani-favignana",
+    "orario": "18:00",
+    "compagnia": "Siremar",
+    "tipoMezzo": "traghetto",
+    "prezzoUfficialeAdulto": 11.83,
+    "prezzoUfficialeBambino": 7.1,
+    "stagionalita": "tutto_anno"
+  }
+]
