@@ -3,6 +3,7 @@ import { checkAuth, commitToGitHub } from "../auth";
 import routesData from "@/data/routes.json";
 import departuresData from "@/data/departures.json";
 import vendorsData from "@/data/vendors.json";
+import companiesData from "@/data/companies.json";
 
 export async function GET(req: NextRequest) {
   const authError = checkAuth(req);
@@ -12,6 +13,7 @@ export async function GET(req: NextRequest) {
     routes: routesData,
     departures: departuresData,
     vendors: vendorsData,
+    companies: companiesData,
   });
 }
 
@@ -30,6 +32,7 @@ export async function PUT(req: NextRequest) {
     routes: "src/data/routes.json",
     departures: "src/data/departures.json",
     vendors: "src/data/vendors.json",
+    companies: "src/data/companies.json",
   };
 
   const filePath = fileMap[entity];

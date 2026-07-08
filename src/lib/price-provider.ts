@@ -1,19 +1,15 @@
 import { Departure, Vendor, VendorPrice, Route, PriceProvider } from "./types";
+import companyLinks from "@/data/companies.json";
 
-function buildDeepLink(
-  template: string,
-  route: Route,
-  date: string,
-  pax: number
-): string {
-  return template
-    .replace("{from}", encodeURIComponent(route.portoPartenza))
-    .replace("{to}", encodeURIComponent(route.portoArrivo))
-    .replace("{date}", date)
-    .replace("{pax}", String(pax));
+const companyWebsites: Record<string, string> = companyLinks;
+
+function getDeepLink(vendor: Vendor, route: Route): string {
+  if (vendor.routeLinks && vendor.routeLinks[route.id]) {
+    return vendor.routeLinks[route.id];
+  }
+  return vendor.deepLinkTemplate || "#";
 }
 
-// fee = prezzoBase * (feePercent / 100) + feeFixed
 function applyFee(basePrice: number, vendor: Vendor): number {
   return basePrice * (1 + vendor.feePercent / 100) + vendor.feeFixed;
 }
@@ -27,13 +23,32 @@ export class StaticPriceProvider implements PriceProvider {
     route: Route
   ): Promise<VendorPrice[]> {
     const adulti = Math.max(1, pax);
-    const prices: VendorPrice[] = vendors.map((vendor) => {
+    const prices: VendorPrice[] = [];
+
+    const companyUrl = companyWebsites[departure.compagnia] || "#";
+    prices.push({
+      vendor: {
+        id: `sito-${departure.compagnia.toLowerCase().replace(/\s+/g, "-")}`,
+        nome: departure.compagnia,
+        tipo: "compagnia",
+        feePercent: 0,
+        feeFixed: 0,
+      },
+      prezzoAdulto: departure.prezzoUfficialeAdulto,
+      prezzoBambino: departure.prezzoUfficialeBambino,
+      prezzoTotale: Math.round(departure.prezzoUfficialeAdulto * adulti * 100) / 100,
+      deepLink: companyUrl,
+      isBestPrice: false,
+      risparmio: 0,
+    });
+
+    for (const vendor of vendors) {
       const prezzoAdulto = Math.round(applyFee(departure.prezzoUfficialeAdulto, vendor) * 100) / 100;
       const prezzoBambino = Math.round(applyFee(departure.prezzoUfficialeBambino, vendor) * 100) / 100;
       const prezzoTotale = Math.round(prezzoAdulto * adulti * 100) / 100;
-      const deepLink = buildDeepLink(vendor.deepLinkTemplate, route, date, pax);
+      const deepLink = getDeepLink(vendor, route);
 
-      return {
+      prices.push({
         vendor,
         prezzoAdulto,
         prezzoBambino,
@@ -41,8 +56,8 @@ export class StaticPriceProvider implements PriceProvider {
         deepLink,
         isBestPrice: false,
         risparmio: 0,
-      };
-    });
+      });
+    }
 
     prices.sort((a, b) => a.prezzoTotale - b.prezzoTotale);
 

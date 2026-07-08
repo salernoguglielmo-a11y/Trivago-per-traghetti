@@ -30,7 +30,8 @@ export interface Vendor {
   tipo: VendorTipo;
   feePercent: number;
   feeFixed: number;
-  deepLinkTemplate: string;
+  deepLinkTemplate?: string;
+  routeLinks?: Record<string, string>;
 }
 
 export interface VendorPrice {

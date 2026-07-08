@@ -1,19 +1,19 @@
 [
   {
-    "id": "sito-compagnia",
-    "nome": "Sito ufficiale",
-    "tipo": "compagnia",
-    "feePercent": 0,
-    "feeFixed": 0,
-    "deepLinkTemplate": "#"
-  },
-  {
     "id": "ferryhopper",
     "nome": "Ferryhopper",
     "tipo": "ota",
     "feePercent": 5,
     "feeFixed": 0,
-    "deepLinkTemplate": "https://www.ferryhopper.com/it/ferry-routes?from={from}&to={to}&date={date}&pax={pax}"
+    "routeLinks": {
+      "napoli-capri": "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-naples-capri-traghetti",
+      "napoli-ischia": "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-naples-ischia-traghetti",
+      "pozzuoli-procida": "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-pozzuoli-procida-traghetti",
+      "anzio-ponza": "https://www.ferryhopper.com/it/ferry-routes/direct/anzio-ponza",
+      "formia-ponza": "https://www.ferryhopper.com/it/ferry-routes/direct/formia-ponza",
+      "piombino-portoferraio": "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-piombino-portoferraio-traghetti",
+      "trapani-favignana": "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-trapani-favignana-traghetti"
+    }
   },
   {
     "id": "direct-ferries",
@@ -21,7 +21,15 @@
     "tipo": "ota",
     "feePercent": 8,
     "feeFixed": 0,
-    "deepLinkTemplate": "https://www.directferries.it/risultati?from={from}&to={to}&date={date}&pax={pax}"
+    "routeLinks": {
+      "napoli-capri": "https://www.directferries.it/naples_capri_ferry.htm",
+      "napoli-ischia": "https://www.directferries.it/naples_ischia_ferry.htm",
+      "pozzuoli-procida": "https://www.directferries.it/pozzuoli_procida_ferry.htm",
+      "anzio-ponza": "https://www.directferries.it/anzio_ponza_ferry.htm",
+      "formia-ponza": "https://www.directferries.it/formia_ponza_ferry.htm",
+      "piombino-portoferraio": "https://www.directferries.it/piombino_portoferraio_ferry.htm",
+      "trapani-favignana": "https://www.directferries.it/trapani_favignana_ferry.htm"
+    }
   },
   {
     "id": "traghettilines",
@@ -29,7 +37,15 @@
     "tipo": "ota",
     "feePercent": 0,
     "feeFixed": 2.5,
-    "deepLinkTemplate": "https://www.traghettilines.it/prenota?partenza={from}&arrivo={to}&data={date}&passeggeri={pax}"
+    "routeLinks": {
+      "napoli-capri": "https://www.traghettilines.it/it/capri/traghetti-napoli-capri.aspx",
+      "napoli-ischia": "https://www.traghettilines.it/it/ischia/traghetti-napoli-ischia.aspx",
+      "pozzuoli-procida": "https://www.traghettilines.it/it/procida/traghetti-pozzuoli-procida.aspx",
+      "anzio-ponza": "https://www.traghettilines.it/it/ponza/traghetti-anzio-ponza.aspx",
+      "formia-ponza": "https://www.traghettilines.it/it/ponza/traghetti-formia-ponza.aspx",
+      "piombino-portoferraio": "https://www.traghettilines.it/it/elba/traghetti-piombino-portoferraio.aspx",
+      "trapani-favignana": "https://www.traghettilines.it/it/favignana/traghetti-trapani-favignana.aspx"
+    }
   },
   {
     "id": "traghetti-com",
@@ -37,6 +53,14 @@
     "tipo": "ota",
     "feePercent": 10,
     "feeFixed": 1.5,
-    "deepLinkTemplate": "https://www.traghetti.com/search?origin={from}&dest={to}&date={date}&passengers={pax}"
+    "routeLinks": {
+      "napoli-capri": "https://www.traghetti.com/traghetti-capri/traghetti-napoli-capri",
+      "napoli-ischia": "https://www.traghetti.com/traghetti-ischia/traghetti-napoli-ischia",
+      "pozzuoli-procida": "https://www.traghetti.com/traghetti-procida/traghetti-pozzuoli-procida",
+      "anzio-ponza": "https://www.traghetti.com/traghetti-ponza/traghetti-anzio-ponza",
+      "formia-ponza": "https://www.traghetti.com/traghetti-ponza/traghetti-formia-ponza",
+      "piombino-portoferraio": "https://www.traghetti.com/traghetti-portoferraio/traghetti-piombino-portoferraio",
+      "trapani-favignana": "https://www.traghetti.com/traghetti-favignana/traghetti-trapani-favignana"
+    }
   }
 ]

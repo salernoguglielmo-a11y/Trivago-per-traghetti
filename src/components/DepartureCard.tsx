@@ -34,9 +34,9 @@ export default function DepartureCard({ data }: { data: DepartureWithPrices }) {
                   </span>
                 )}
               </div>
-              {vp.vendor.tipo === "ota" && (
-                <span className="text-[10px] text-ink/40">OTA</span>
-              )}
+              <span className="text-[10px] text-ink/40">
+                {vp.vendor.tipo === "compagnia" ? "Sito ufficiale" : "OTA"}
+              </span>
             </div>
 
             <div className="text-right shrink-0">
