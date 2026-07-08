@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import { t } from "@/lib/i18n";
+import { getSiteUrl } from "@/lib/site";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -14,11 +15,17 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: `${t.siteName} — ${t.siteTagline}`,
     template: `%s | ${t.siteName}`,
   },
   description: t.siteDescription,
+  openGraph: {
+    siteName: t.siteName,
+    locale: "it_IT",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -17,6 +17,16 @@ export function getRouteBySlug(slug: string): Route | undefined {
   return routes.find((r) => r.slug === slug);
 }
 
+export type Season = "estate" | "inverno";
+
+export function getSeasonForDate(date: string): Season {
+  const parsed = new Date(`${date}T12:00:00`);
+  const month = isNaN(parsed.getTime())
+    ? new Date().getMonth() + 1
+    : parsed.getMonth() + 1;
+  return month >= 6 && month <= 9 ? "estate" : "inverno";
+}
+
 export async function searchDepartures(
   from: string,
   to: string,
@@ -26,8 +36,13 @@ export async function searchDepartures(
   const route = findRoute(from, to);
   if (!route) return [];
 
+  const season = getSeasonForDate(date);
   const routeDepartures = departures
-    .filter((d) => d.routeId === route.id)
+    .filter(
+      (d) =>
+        d.routeId === route.id &&
+        (d.stagionalita === "tutto_anno" || d.stagionalita === season)
+    )
     .sort((a, b) => a.orario.localeCompare(b.orario));
 
   const results: DepartureWithPrices[] = [];

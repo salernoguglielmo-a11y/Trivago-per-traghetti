@@ -1,7 +1,13 @@
-import { Departure, Vendor, VendorPrice, Route, PriceProvider } from "./types";
+import { Departure, Vendor, VendorPrice, Route, PriceProvider, CompanyLinks } from "./types";
 import companyLinks from "@/data/companies.json";
 
-const companyWebsites: Record<string, string> = companyLinks;
+const companies: Record<string, CompanyLinks> = companyLinks;
+
+export function getCompanyLink(compagnia: string, routeId: string): string {
+  const company = companies[compagnia];
+  if (!company) return "#";
+  return company.routeLinks?.[routeId] ?? company.sito;
+}
 
 function getDeepLink(vendor: Vendor, route: Route): string {
   if (vendor.routeLinks && vendor.routeLinks[route.id]) {
@@ -25,7 +31,7 @@ export class StaticPriceProvider implements PriceProvider {
     const adulti = Math.max(1, pax);
     const prices: VendorPrice[] = [];
 
-    const companyUrl = companyWebsites[departure.compagnia] || "#";
+    const companyUrl = getCompanyLink(departure.compagnia, route.id);
     prices.push({
       vendor: {
         id: `sito-${departure.compagnia.toLowerCase().replace(/\s+/g, "-")}`,

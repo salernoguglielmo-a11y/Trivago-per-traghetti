@@ -20,6 +20,12 @@ export interface Departure {
   prezzoUfficialeAdulto: number;
   prezzoUfficialeBambino: number;
   stagionalita: Stagionalita;
+  durataMin?: number;
+}
+
+export interface CompanyLinks {
+  sito: string;
+  routeLinks?: Record<string, string>;
 }
 
 export type VendorTipo = "compagnia" | "ota";

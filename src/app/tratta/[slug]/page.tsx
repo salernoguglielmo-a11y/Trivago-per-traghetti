@@ -7,7 +7,7 @@ import {
   getCompaniesForRoute,
   getPriceRangeForRoute,
 } from "@/lib/search";
-import { formatPrice, formatVesselType, t } from "@/lib/i18n";
+import { formatArrivalTime, formatPrice, formatVesselType, t } from "@/lib/i18n";
 import SearchForm from "@/components/SearchForm";
 
 export function generateStaticParams() {
@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Traghetto ${route.portoPartenza} ${route.portoArrivo} — Orari e prezzi da ${formatPrice(minP)}`,
     description: `Confronta orari, prezzi e compagnie per la tratta ${route.portoPartenza} → ${route.portoArrivo}. Aliscafi e traghetti da ${formatPrice(minP)} a ${formatPrice(maxP)}.`,
+    alternates: { canonical: `/tratta/${route.slug}` },
   };
 }
 
@@ -57,8 +58,22 @@ export default function TrattaPage({ params }: Props) {
     },
   ];
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <h1 className="font-display text-2xl sm:text-3xl font-bold mb-1">
         {route.portoPartenza} → {route.portoArrivo}
       </h1>
@@ -78,8 +93,10 @@ export default function TrattaPage({ params }: Props) {
             <thead>
               <tr className="bg-ink/[0.04] text-left">
                 <th className="px-3 py-2 font-medium">{t.departure}</th>
+                <th className="px-3 py-2 font-medium">{t.arrival}</th>
                 <th className="px-3 py-2 font-medium">{t.company}</th>
                 <th className="px-3 py-2 font-medium">{t.vessel}</th>
+                <th className="px-3 py-2 font-medium">{t.season}</th>
                 <th className="px-3 py-2 font-medium text-right">Adulto</th>
                 <th className="px-3 py-2 font-medium text-right">Bambino</th>
               </tr>
@@ -88,8 +105,14 @@ export default function TrattaPage({ params }: Props) {
               {routeDeps.map((d) => (
                 <tr key={d.id} className="hover:bg-signal/5">
                   <td className="px-3 py-2 font-tabellone font-bold">{d.orario}</td>
+                  <td className="px-3 py-2 font-tabellone text-ink/60">
+                    {formatArrivalTime(d.orario, d.durataMin ?? route.durataMin)}
+                  </td>
                   <td className="px-3 py-2">{d.compagnia}</td>
                   <td className="px-3 py-2 text-ink/60">{formatVesselType(d.tipoMezzo)}</td>
+                  <td className="px-3 py-2 text-ink/60">
+                    {d.stagionalita === "estate" ? t.seasonSummer : t.seasonAllYear}
+                  </td>
                   <td className="px-3 py-2 font-tabellone text-right">{formatPrice(d.prezzoUfficialeAdulto)}</td>
                   <td className="px-3 py-2 font-tabellone text-right">{formatPrice(d.prezzoUfficialeBambino)}</td>
                 </tr>
@@ -97,6 +120,7 @@ export default function TrattaPage({ params }: Props) {
             </tbody>
           </table>
         </div>
+        <p className="text-xs text-ink/40 mt-2">{t.scheduleNotice}</p>
       </section>
 
       <section className="mb-8 grid sm:grid-cols-2 gap-4">

@@ -67,6 +67,7 @@ export default function SearchForm({ compact = false }: { compact?: boolean }) {
           <input
             type="date"
             value={date}
+            min={today}
             onChange={(e) => setDate(e.target.value)}
             required
             className="w-full border border-ink/20 rounded-lg px-3 py-2.5 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-signal"

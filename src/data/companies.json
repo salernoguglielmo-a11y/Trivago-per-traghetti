@@ -1,15 +1,60 @@
 {
-  "SNAV": "https://www.snav.it",
-  "NLG": "https://www.navlib.it",
-  "Caremar": "https://shop.caremar.it/it/acquista/",
-  "Alilauro": "https://booking.alilauro.it",
-  "Medmar": "https://easy.medmargroup.it/orari",
-  "Laziomar": "https://laziomar.it/en/book",
-  "Vetor": "https://www.vetor.it/prenotazione/",
-  "Moby": "https://www.moby.it",
-  "Toremar": "https://agency.toremar.it",
-  "BluNavy": "https://booking.blunavytraghetti.com",
-  "Liberty Lines": "https://booking.libertylines.it",
-  "Siremar": "https://www.carontetourist.it/en/islands-sicily/timetables",
-  "Gestur": "https://www.gestour.it"
+  "SNAV": {
+    "sito": "https://www.snav.it",
+    "routeLinks": {
+      "napoli-capri": "https://www.snav.it/it/orari-e-tratte",
+      "napoli-ischia": "https://www.snav.it/it/orari-e-tratte"
+    }
+  },
+  "NLG": {
+    "sito": "https://www.nlg.it"
+  },
+  "Caremar": {
+    "sito": "https://shop.caremar.it/it/orari/",
+    "routeLinks": {
+      "napoli-capri": "https://easy.caremar.it/it/orari-tratta/Napoli-Capri/",
+      "napoli-ischia": "https://easy.caremar.it/it/orari-tratta/Napoli-Ischia/",
+      "pozzuoli-procida": "https://easy.caremar.it/it/orari-tratta/Pozzuoli-Procida/"
+    }
+  },
+  "Alilauro": {
+    "sito": "https://booking.alilauro.it"
+  },
+  "Medmar": {
+    "sito": "https://easy.medmargroup.it/orari"
+  },
+  "Laziomar": {
+    "sito": "https://laziomar.it",
+    "routeLinks": {
+      "anzio-ponza": "https://laziomar.it/en/timetables/anzio-ponza-and-vice-versa",
+      "formia-ponza": "https://laziomar.it/en/timetables/formia-ponza-and-vice-versa"
+    }
+  },
+  "Vetor": {
+    "sito": "https://www.vetor.it/orari-e-tariffe/"
+  },
+  "Moby": {
+    "sito": "https://www.moby.it",
+    "routeLinks": {
+      "piombino-portoferraio": "https://www.moby.it/rotte/traghetti-elba/piombino-portoferraio-piombino/"
+    }
+  },
+  "Toremar": {
+    "sito": "https://www.toremar.it/it/tratte/orari-tariffe.html"
+  },
+  "BluNavy": {
+    "sito": "https://booking.blunavytraghetti.com"
+  },
+  "Liberty Lines": {
+    "sito": "https://www.libertylines.it",
+    "routeLinks": {
+      "trapani-favignana": "https://booking.libertylines.it/it/from/Trapani/today/to/Favignana/"
+    }
+  },
+  "Siremar": {
+    "sito": "https://www.carontetourist.it/it/isole-sicilia/orari"
+  },
+  "Gestur": {
+    "sito": "https://www.gestour.it"
+  }
 }
