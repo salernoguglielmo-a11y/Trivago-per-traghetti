@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+.font-tabellone {
+  font-family: var(--font-mono), monospace;
+  font-variant-numeric: tabular-nums;
+}
