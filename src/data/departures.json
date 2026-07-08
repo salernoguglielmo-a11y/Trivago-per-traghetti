@@ -7,7 +7,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-0745",
@@ -17,7 +18,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-0925",
@@ -27,7 +29,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-0950",
@@ -37,7 +40,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-1145",
@@ -47,7 +51,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-1440",
@@ -57,7 +62,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-1550",
@@ -67,7 +73,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-1925",
@@ -77,7 +84,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-snav-2135",
@@ -87,7 +95,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 45
   },
   {
     "id": "nc-nlg-0805",
@@ -97,7 +106,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23.5,
     "prezzoUfficialeBambino": 16,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-nlg-1135",
@@ -107,7 +117,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23.5,
     "prezzoUfficialeBambino": 16,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-nlg-1630",
@@ -117,7 +128,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23.5,
     "prezzoUfficialeBambino": 16,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-nlg-1915",
@@ -127,7 +139,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 21.5,
     "prezzoUfficialeBambino": 16,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 45
   },
   {
     "id": "nc-care-0535",
@@ -137,7 +150,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-care-0700",
@@ -147,7 +161,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-care-0920",
@@ -157,7 +172,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-care-1130",
@@ -167,7 +183,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-care-1430",
@@ -177,7 +194,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-care-1740",
@@ -187,7 +205,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-care-1940",
@@ -197,7 +216,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 9.8,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 80
   },
   {
     "id": "nc-carev-0830",
@@ -207,7 +227,8 @@
     "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 20.3,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "nc-carev-1630",
@@ -217,7 +238,8 @@
     "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 20.3,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 50
   },
   {
     "id": "ni-ali-0630",
@@ -227,7 +249,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 14,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-ali-0830",
@@ -237,7 +260,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 14,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-ali-1050",
@@ -247,7 +271,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 14,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-ali-1330",
@@ -257,7 +282,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 14,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-ali-1600",
@@ -267,7 +293,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 14,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-ali-1830",
@@ -277,7 +304,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 14,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 50
   },
   {
     "id": "ni-snav-0800",
@@ -287,7 +315,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23,
     "prezzoUfficialeBambino": 14.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-snav-1100",
@@ -297,7 +326,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23,
     "prezzoUfficialeBambino": 14.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-snav-1500",
@@ -307,7 +337,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23,
     "prezzoUfficialeBambino": 14.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 50
   },
   {
     "id": "ni-snav-1900",
@@ -317,7 +348,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 23,
     "prezzoUfficialeBambino": 14.5,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 50
   },
   {
     "id": "ni-care-0600",
@@ -327,7 +359,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 13.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-care-0930",
@@ -337,7 +370,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 13.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-care-1230",
@@ -347,7 +381,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 13.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-care-1800",
@@ -357,7 +392,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 13.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-med-0700",
@@ -367,7 +403,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 8.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-med-1100",
@@ -377,7 +414,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 8.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-med-1500",
@@ -387,7 +425,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 8.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "ni-med-1930",
@@ -397,7 +436,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 14,
     "prezzoUfficialeBambino": 8.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 90
   },
   {
     "id": "pp-med-0645",
@@ -407,7 +447,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 10,
     "prezzoUfficialeBambino": 7,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-med-0830",
@@ -417,7 +458,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 10,
     "prezzoUfficialeBambino": 7,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-med-1120",
@@ -427,7 +469,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 10,
     "prezzoUfficialeBambino": 7,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-med-1330",
@@ -437,7 +480,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 10,
     "prezzoUfficialeBambino": 7,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-med-1640",
@@ -447,7 +491,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 10,
     "prezzoUfficialeBambino": 7,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-care-0730",
@@ -457,7 +502,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 9.5,
     "prezzoUfficialeBambino": 6.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-care-0945",
@@ -467,7 +513,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 9.5,
     "prezzoUfficialeBambino": 6.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-care-1200",
@@ -477,7 +524,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 9.5,
     "prezzoUfficialeBambino": 6.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-care-1500",
@@ -487,7 +535,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 9.5,
     "prezzoUfficialeBambino": 6.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-care-1815",
@@ -497,7 +546,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 9.5,
     "prezzoUfficialeBambino": 6.5,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 40
   },
   {
     "id": "pp-ges-0715",
@@ -507,7 +557,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 15.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 20
   },
   {
     "id": "pp-ges-1000",
@@ -517,7 +568,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 15.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 20
   },
   {
     "id": "pp-ges-1400",
@@ -527,7 +579,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 15.5,
     "prezzoUfficialeBambino": 9.5,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 20
   },
   {
     "id": "ap-vet-0800",
@@ -537,7 +590,8 @@
     "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 75
   },
   {
     "id": "ap-vet-0930",
@@ -547,7 +601,8 @@
     "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 75
   },
   {
     "id": "ap-vet-1700",
@@ -557,27 +612,30 @@
     "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 25,
     "prezzoUfficialeBambino": 15,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 75
   },
   {
     "id": "ap-laz-0800",
     "routeId": "anzio-ponza",
     "orario": "08:00",
     "compagnia": "Laziomar",
-    "tipoMezzo": "traghetto",
+    "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 85
   },
   {
     "id": "ap-laz-1600",
     "routeId": "anzio-ponza",
     "orario": "16:00",
     "compagnia": "Laziomar",
-    "tipoMezzo": "traghetto",
+    "tipoMezzo": "nave_veloce",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 85
   },
   {
     "id": "fp-laz-0800",
@@ -587,7 +645,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 150
   },
   {
     "id": "fp-laz-1430",
@@ -597,7 +656,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 150
   },
   {
     "id": "fp-laz-1815",
@@ -607,7 +667,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 150
   },
   {
     "id": "fp-lazv-0900",
@@ -617,7 +678,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 28,
     "prezzoUfficialeBambino": 17,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 80
   },
   {
     "id": "fp-lazv-1700",
@@ -627,7 +689,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 28,
     "prezzoUfficialeBambino": 17,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 80
   },
   {
     "id": "pe-mob-0530",
@@ -637,7 +700,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-0730",
@@ -647,7 +711,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-0930",
@@ -657,7 +722,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-1200",
@@ -667,7 +733,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-1500",
@@ -677,7 +744,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-1800",
@@ -687,7 +755,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-2100",
@@ -697,7 +766,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 60
   },
   {
     "id": "pe-mob-2230",
@@ -707,7 +777,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 13,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 60
   },
   {
     "id": "pe-tor-0630",
@@ -717,7 +788,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 11,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-tor-0900",
@@ -727,7 +799,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 11,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-tor-1130",
@@ -737,7 +810,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 11,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-tor-1400",
@@ -747,7 +821,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 11,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-tor-1700",
@@ -757,7 +832,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 11,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-tor-2000",
@@ -767,7 +843,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 22,
     "prezzoUfficialeBambino": 11,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 60
   },
   {
     "id": "pe-blu-0700",
@@ -777,7 +854,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-blu-1030",
@@ -787,7 +865,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-blu-1330",
@@ -797,7 +876,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-blu-1630",
@@ -807,7 +887,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 60
   },
   {
     "id": "pe-blu-1930",
@@ -817,7 +898,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 20,
     "prezzoUfficialeBambino": 12,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 60
   },
   {
     "id": "tf-lib-0700",
@@ -827,7 +909,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-0815",
@@ -837,7 +920,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-0930",
@@ -847,7 +931,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-1100",
@@ -857,7 +942,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-1230",
@@ -867,7 +953,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-1400",
@@ -877,7 +964,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-1530",
@@ -887,7 +975,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-1700",
@@ -897,7 +986,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-1830",
@@ -907,7 +997,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 30
   },
   {
     "id": "tf-lib-2000",
@@ -917,7 +1008,8 @@
     "tipoMezzo": "aliscafo",
     "prezzoUfficialeAdulto": 13.8,
     "prezzoUfficialeBambino": 8.3,
-    "stagionalita": "estate"
+    "stagionalita": "estate",
+    "durataMin": 30
   },
   {
     "id": "tf-sir-0730",
@@ -927,7 +1019,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 11.83,
     "prezzoUfficialeBambino": 7.1,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 70
   },
   {
     "id": "tf-sir-1015",
@@ -937,7 +1030,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 11.83,
     "prezzoUfficialeBambino": 7.1,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 70
   },
   {
     "id": "tf-sir-1330",
@@ -947,7 +1041,8 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 11.83,
     "prezzoUfficialeBambino": 7.1,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 70
   },
   {
     "id": "tf-sir-1800",
@@ -957,6 +1052,7 @@
     "tipoMezzo": "traghetto",
     "prezzoUfficialeAdulto": 11.83,
     "prezzoUfficialeBambino": 7.1,
-    "stagionalita": "tutto_anno"
+    "stagionalita": "tutto_anno",
+    "durataMin": 70
   }
 ]

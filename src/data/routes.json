@@ -31,9 +31,9 @@
     "portoPartenza": "Anzio",
     "portoArrivo": "Ponza",
     "isola": "Ponza",
-    "durataMin": 70,
+    "durataMin": 75,
     "slug": "anzio-ponza",
-    "note": "Servizio stagionale (estate). Nave veloce 70 min, traghetto 150 min"
+    "note": "Servizio stagionale (estate). Unità veloci Vetor e Laziomar, 75-85 min"
   },
   {
     "id": "formia-ponza",
@@ -58,8 +58,8 @@
     "portoPartenza": "Trapani",
     "portoArrivo": "Favignana",
     "isola": "Favignana",
-    "durataMin": 25,
+    "durataMin": 30,
     "slug": "trapani-favignana",
-    "note": "Aliscafo 25 min, traghetto 70 min. Fino a 20 corse/giorno in estate"
+    "note": "Aliscafo 30 min, traghetto 70 min. Fino a 20 corse/giorno in estate"
   }
 ]
