@@ -125,8 +125,10 @@ export default function AdminPage() {
             placeholder="Token admin"
             value={token}
             onChange={e => setToken(e.target.value)}
-            className="w-full border border-ink/20 rounded-lg px-3 py-2 mb-3 text-sm"
+            className="w-full border border-ink/20 rounded-lg px-3 py-2 mb-3 text-sm bg-white text-ink focus:outline-none focus:ring-2 focus:ring-signal"
             onKeyDown={e => e.key === "Enter" && loadData()}
+            autoFocus
+            autoComplete="off"
           />
           <button onClick={loadData}
             className="w-full bg-signal text-ink font-bold py-2 rounded-lg text-sm">
