@@ -29,23 +29,18 @@ jobs:
             html2text -utf8 /tmp/page 2>/dev/null | grep -E -B1 -A2 '[0-2]?[0-9][:.][0-5][0-9]' | head -300
             echo "===== END SOURCE ====="
           }
-          fetch_full "https://laziomar.it/en/timetables/anzio-ponza-and-vice-versa" 500
-          fetch_full "https://laziomar.it/en/timetables/formia-ponza-and-vice-versa" 900
-          fetch_times "https://www.naplesbayferry.com/it/t/capri/napoli"
-          fetch_times "https://www.naplesbayferry.com/it/t/napoli/ischia"
-          fetch_times "https://www.naplesbayferry.com/it/t/ischia/napoli"
-          fetch_times "https://www.naplesbayferry.com/it/t/napoli/casamicciola"
-          fetch_times "https://www.naplesbayferry.com/it/t/casamicciola/napoli"
-          fetch_times "https://www.naplesbayferry.com/it/t/pozzuoli/procida"
-          fetch_times "https://www.naplesbayferry.com/it/t/procida/pozzuoli"
-          fetch_times "https://easy.medmargroup.it/it/orari-tratta/Napoli-Ischia/"
-          fetch_times "https://easy.medmargroup.it/it/orari-tratta/Ischia-Napoli/"
-          fetch_times "https://easy.medmargroup.it/it/orari-tratta/Pozzuoli-Ischia/"
-          fetch_times "https://agency.toremar.it/rotte/traghetti-elba/piombino-portoferraio-piombino/"
-          fetch_times "https://www.traghettilines.it/it/elba/traghetti-piombino-portoferraio.aspx"
-          fetch_times "https://it.netferry.com/traghetti/da/piombino/portoferraio"
-          fetch_times "https://www.traghettilines.it/it/favignana/traghetti-trapani-favignana.aspx"
-          fetch_times "https://it.netferry.com/traghetti/da/trapani/favignana"
-          fetch_full "https://www.gestour.it" 200
-          fetch_times "https://www.elladetraghetti.it/it/traghetti-piombino-portoferraio-moby"
+          # Round 3: attribuzione compagnie Capri->Napoli, ritorni Elba, Medmar, Ventotene
+          fetch_full "https://www.capri.net/en/ferry-schedule/capri/napoli" 700
+          fetch_full "https://www.capri.net/en/ferry-schedule?from=capri&to=napoli" 700
+          fetch_times "https://www.capri.net/it/orari-traghetti/capri/napoli"
+          fetch_times "https://www.infoelba.it/come-arrivare/traghetti/orari-e-prezzi/"
+          fetch_times "https://www.infoelba.it/come-arrivare/traghetti/"
+          fetch_times "https://www.elbalink.it/traghetti-elba/orari"
+          fetch_times "https://it.netferry.com/traghetti/da/portoferraio/piombino"
+          fetch_times "https://www.medmargroup.it/orari-e-prezzi"
+          fetch_times "https://www.medmargroup.it/"
+          fetch_full "https://laziomar.it/en/timetables/formia-ventotene-and-vice-versa" 900
+          fetch_times "https://www.naplesbayferry.com/it/t/napoli/capri"
+          fetch_times "https://www.naplesbayferry.com/it/t/ischia/pozzuoli"
+          fetch_times "https://www.naplesbayferry.com/it/t/pozzuoli/ischia"
           echo "ALL DONE"
