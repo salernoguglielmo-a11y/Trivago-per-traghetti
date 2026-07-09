@@ -9,43 +9,47 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - name: Install tools
-        run: sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq poppler-utils html2text >/dev/null
-
-      - name: Fetch timetable sources
+      - name: Check OTA link candidates
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-          fetch_full() {
-            echo ""
-            echo "===== SOURCE: $1 ====="
-            curl -sL --max-time 45 -A "$UA" "$1" -o /tmp/page || { echo "FETCH FAILED"; return 0; }
-            html2text -utf8 -width 110 /tmp/page 2>/dev/null | head -"${2:-600}"
-            echo "===== END SOURCE ====="
+          check() {
+            out=$(curl -s -o /dev/null --max-time 30 -A "$UA" -w "%{http_code} %{url_effective}" -L "$1")
+            echo "CHECK $out <= $1"
           }
-          fetch_times() {
-            echo ""
-            echo "===== SOURCE: $1 ====="
-            curl -sL --max-time 45 -A "$UA" "$1" -o /tmp/page || { echo "FETCH FAILED"; return 0; }
-            html2text -utf8 /tmp/page 2>/dev/null | grep -E -B1 -A2 '[0-2]?[0-9][:.][0-5][0-9]' | head -300
-            echo "===== END SOURCE ====="
-          }
-          fetch_full "https://laziomar.it/en/timetables/anzio-ponza-and-vice-versa" 500
-          fetch_full "https://laziomar.it/en/timetables/formia-ponza-and-vice-versa" 900
-          fetch_times "https://www.naplesbayferry.com/it/t/capri/napoli"
-          fetch_times "https://www.naplesbayferry.com/it/t/napoli/ischia"
-          fetch_times "https://www.naplesbayferry.com/it/t/ischia/napoli"
-          fetch_times "https://www.naplesbayferry.com/it/t/napoli/casamicciola"
-          fetch_times "https://www.naplesbayferry.com/it/t/casamicciola/napoli"
-          fetch_times "https://www.naplesbayferry.com/it/t/pozzuoli/procida"
-          fetch_times "https://www.naplesbayferry.com/it/t/procida/pozzuoli"
-          fetch_times "https://easy.medmargroup.it/it/orari-tratta/Napoli-Ischia/"
-          fetch_times "https://easy.medmargroup.it/it/orari-tratta/Ischia-Napoli/"
-          fetch_times "https://easy.medmargroup.it/it/orari-tratta/Pozzuoli-Ischia/"
-          fetch_times "https://agency.toremar.it/rotte/traghetti-elba/piombino-portoferraio-piombino/"
-          fetch_times "https://www.traghettilines.it/it/elba/traghetti-piombino-portoferraio.aspx"
-          fetch_times "https://it.netferry.com/traghetti/da/piombino/portoferraio"
-          fetch_times "https://www.traghettilines.it/it/favignana/traghetti-trapani-favignana.aspx"
-          fetch_times "https://it.netferry.com/traghetti/da/trapani/favignana"
-          fetch_full "https://www.gestour.it" 200
-          fetch_times "https://www.elladetraghetti.it/it/traghetti-piombino-portoferraio-moby"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-naples-capri-traghetti"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-capri-naples-traghetti"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-ischia-naples-traghetti"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-procida-pozzuoli-traghetti"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/anzio-ponza"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ponza-anzio"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ponza-formia"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-portoferraio-piombino-traghetti"
+          check "https://www.ferryhopper.com/it/ferry-routes/direct/ferry-favignana-trapani-traghetti"
+          check "https://www.directferries.it/capri_napoli_traghetto.htm"
+          check "https://www.directferries.it/capri_naples_ferry.htm"
+          check "https://www.directferries.it/ischia_napoli_traghetto.htm"
+          check "https://www.directferries.it/procida_pozzuoli_traghetto.htm"
+          check "https://www.directferries.it/ponza_anzio_traghetto.htm"
+          check "https://www.directferries.it/ponza_formia_traghetto.htm"
+          check "https://www.directferries.it/portoferraio_piombino_traghetto.htm"
+          check "https://www.directferries.it/favignana_trapani_traghetto.htm"
+          check "https://www.traghettilines.it/it/capri/traghetti-capri-napoli.aspx"
+          check "https://www.traghettilines.it/it/ischia/traghetti-ischia-napoli.aspx"
+          check "https://www.traghettilines.it/it/procida/traghetti-procida-pozzuoli.aspx"
+          check "https://www.traghettilines.it/it/ponza/traghetti-ponza-anzio.aspx"
+          check "https://www.traghettilines.it/it/ponza/traghetti-ponza-formia.aspx"
+          check "https://www.traghettilines.it/it/elba/traghetti-portoferraio-piombino.aspx"
+          check "https://www.traghettilines.it/it/favignana/traghetti-favignana-trapani.aspx"
+          check "https://www.traghetti.com/traghetti-capri/traghetti-napoli-capri"
+          check "https://www.traghetti.com/traghetti-isola-di-ponza/traghetti-anzio-ponza"
+          check "https://www.traghetti.com/traghetti-ponza/traghetti-anzio-ponza"
+          check "https://www.traghetti.com/traghetti-napoli/traghetti-capri-napoli"
+          check "https://www.traghetti.com/traghetti-napoli/traghetti-ischia-napoli"
+          check "https://www.traghetti.com/traghetti-pozzuoli/traghetti-procida-pozzuoli"
+          check "https://www.traghetti.com/traghetti-anzio/traghetti-ponza-anzio"
+          check "https://www.traghetti.com/traghetti-formia/traghetti-ponza-formia"
+          check "https://www.traghetti.com/traghetti-piombino/traghetti-portoferraio-piombino"
+          check "https://www.traghetti.com/traghetti-trapani/traghetti-favignana-trapani"
+          check "https://booking.libertylines.it/it/from/Favignana/today/to/Trapani/"
+          check "https://easy.medmargroup.it/it/orari-tratta/Napoli-Ischia/"
           echo "ALL DONE"
