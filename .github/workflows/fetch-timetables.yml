@@ -1,0 +1,58 @@
+name: fetch-timetables
+on: workflow_dispatch
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install tools
+        run: sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq poppler-utils html2text >/dev/null
+
+      - name: Fetch timetable sources
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          fetch() {
+            echo ""
+            echo "===== SOURCE: $1 ====="
+            if ! curl -sL --max-time 45 -A "$UA" "$1" -o /tmp/page; then
+              echo "FETCH FAILED"
+              return 0
+            fi
+            if file /tmp/page | grep -qi pdf; then
+              pdftotext -layout /tmp/page - | head -350
+            else
+              html2text -utf8 /tmp/page 2>/dev/null | grep -E -B1 -A1 '[0-2]?[0-9][:.][0-5][0-9]' | head -280
+            fi
+            echo "===== END SOURCE ====="
+          }
+          fetch "https://www.capri.net/en/ferry-schedule"
+          fetch "https://capritraghetti.it/"
+          fetch "https://easy.caremar.it/it/orari-tratta/Napoli-Capri/"
+          fetch "https://easy.caremar.it/it/orari-tratta/Capri-Napoli/"
+          fetch "https://easy.caremar.it/it/orari-tratta/Napoli-Ischia/"
+          fetch "https://easy.caremar.it/it/orari-tratta/Ischia-Napoli/"
+          fetch "https://easy.caremar.it/it/orari-tratta/Pozzuoli-Procida/"
+          fetch "https://easy.caremar.it/it/orari-tratta/Procida-Pozzuoli/"
+          fetch "https://www.elladetraghetti.it/it/aliscafi-napoli-beverello-capri-nlg"
+          fetch "https://www.snav.it/en/destinations/capri-e-sorrento-2/napoli-capri"
+          fetch "https://www.ischia.it/it/orari-napoli-ischia-aliscafi"
+          fetch "https://www.ischia.it/it/orari-napoli-ischia-navi-traghetto"
+          fetch "https://www.ischia.it/orari-ischia-casamicciola-forio-napoli-beverello-mergellina-aliscafi"
+          fetch "https://www.ischia.it/it/orari-ischia-casamicciola-napoli-navi-traghetto"
+          fetch "https://www.ischia.it/it/orari-ischia-casamicciola-pozzuoli-navi-traghetto"
+          fetch "https://www.ischia.it/it/collegamenti-marittimi-verso-l-isola-d-ischia"
+          fetch "https://www.ischia.it/it/collegamenti-marittimi-dall-isola-d-ischia"
+          fetch "https://www.alilauro.it/it/tratte/napoli-beverello-ischia-ischia-napoli-beverello/"
+          fetch "https://easy.medmargroup.it/orari"
+          fetch "https://laziomar.it/en/timetables/anzio-ponza-and-vice-versa"
+          fetch "https://laziomar.it/en/timetables/formia-ponza-and-vice-versa"
+          fetch "https://www.vetor.it/orari-e-tariffe/"
+          fetch "https://www.libertylines.it/wp-content/uploads/2026/03/Orari_EGADI_1Aprile_rev19.03.pdf"
+          fetch "https://www.carontetourist.it/it/isole-sicilia/orari"
+          fetch "http://asvipe.altervista.org/moby-ora01.html"
+          fetch "https://www.moby.it/rotte/traghetti-elba/piombino-portoferraio-piombino/"
+          fetch "https://www.toremar.it/it/tratte/orari-tariffe.html"
+          fetch "https://www.blunavytraghetti.com/"
+          fetch "https://www.traghetti-elba.it/orari-traghetti-elba.htm"
+          fetch "https://www.gestour.it"
+          echo "ALL DONE"
