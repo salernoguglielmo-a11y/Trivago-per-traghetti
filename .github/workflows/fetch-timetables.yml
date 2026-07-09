@@ -1,5 +1,9 @@
 name: fetch-timetables
-on: workflow_dispatch
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-timetables.yml"
+  workflow_dispatch:
 
 jobs:
   fetch:
