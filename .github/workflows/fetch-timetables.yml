@@ -12,35 +12,36 @@ jobs:
       - name: Install tools
         run: sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq html2text >/dev/null
 
-      - name: Fetch with company context
+      - name: Fetch and check
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-          fetch_ctx() {
-            echo ""
-            echo "===== SOURCE: $1 ====="
-            curl -sL --max-time 45 -A "$UA" "$1" -o /tmp/page || { echo "FETCH FAILED"; return 0; }
-            html2text -utf8 /tmp/page 2>/dev/null | grep -E -B8 'Partenza [0-2][0-9]:' | grep -E 'Partenza|Tipo|Durata|\[|Snav|Caremar|Medmar|NLG|Alilauro|Gestour|Moby|Toremar|Blu|Liberty|Siremar|€|EUR|Prezzo' | head -420
-            echo "===== END SOURCE ====="
-          }
           fetch_full() {
             echo ""
             echo "===== SOURCE: $1 ====="
             curl -sL --max-time 45 -A "$UA" "$1" -o /tmp/page || { echo "FETCH FAILED"; return 0; }
-            html2text -utf8 -width 120 /tmp/page 2>/dev/null | head -"${2:-400}"
+            html2text -utf8 -width 130 /tmp/page 2>/dev/null | head -"${2:-350}"
             echo "===== END SOURCE ====="
           }
-          fetch_ctx "https://www.naplesbayferry.com/it/t/capri/napoli"
-          fetch_ctx "https://www.naplesbayferry.com/it/t/napoli/ischia"
-          fetch_ctx "https://www.naplesbayferry.com/it/t/ischia/napoli"
-          fetch_ctx "https://www.naplesbayferry.com/it/t/pozzuoli/procida"
-          fetch_ctx "https://www.naplesbayferry.com/it/t/procida/pozzuoli"
-          fetch_full "https://www.medmargroup.it/" 300
-          fetch_full "https://www.traghetti-ischia.info/it/tratte/napoli-ischia" 500
-          fetch_full "https://www.traghetti-ischia.info/it/compagnie/medmar" 400
-          fetch_full "https://www.traghetti-ischia.info/it/compagnie/snav" 400
-          fetch_full "https://www.traghetti-elba.it/" 400
-          fetch_full "https://www.elba-traghetto.it/" 500
-          fetch_full "https://www.ok-ferry.com/it/traghetti-piombino-portoferraio.aspx" 500
-          fetch_full "https://www.traghettiper-favignana.it/compagnia-di-navigazione-siremar/" 400
-          fetch_full "https://www.egadi.com/orari-traghetti-e-aliscafi/" 400
+          check() {
+            out=$(curl -s -o /dev/null --max-time 30 -A "$UA" -w "%{http_code} %{url_effective}" -L "$1")
+            echo "CHECK $out <= $1"
+          }
+          fetch_full "https://www.monicapmslivorno.eu/SERVIZIWEB/piombino/tabellone/partenze" 400
+          fetch_full "https://www.monicapmslivorno.eu/SERVIZIWEB/portoferraio/tabellone/partenze" 400
+          fetch_full "https://blunavytraghetti.com/en/elba-island-ferry-schedules/" 300
+          fetch_full "https://www.traghetti-elba.it/tratte/traghetti-piombino-portoferraio.htm" 350
+          fetch_full "https://www.elladetraghetti.it/it/traghetti-trapani-favignana-siremar" 300
+          fetch_full "https://www.traghetti.com/siremar/trapani-favignana" 350
+          check "https://www.traghetti.com/traghetti-ischia/traghetti-napoli-ischia"
+          check "https://www.traghetti.com/traghetti-ischia/traghetti-ischia-napoli"
+          check "https://www.traghetti.com/traghetti-procida/traghetti-pozzuoli-procida"
+          check "https://www.traghetti.com/traghetti-procida/traghetti-procida-pozzuoli"
+          check "https://www.traghetti.com/traghetti-capri/traghetti-capri-napoli"
+          check "https://www.traghetti.com/traghetti-isola-di-ponza/traghetti-formia-ponza"
+          check "https://www.traghetti.com/traghetti-isola-di-ponza/traghetti-ponza-anzio"
+          check "https://www.traghetti.com/traghetti-isola-di-ponza/traghetti-ponza-formia"
+          check "https://www.traghetti.com/traghetti-toscana/traghetti-piombino-portoferraio"
+          check "https://www.traghetti.com/traghetti-isola-elba/traghetti-portoferraio-piombino"
+          check "https://www.traghetti.com/traghetti-isole-egadi/traghetti-trapani-favignana"
+          check "https://www.traghetti.com/traghetti-isole-egadi/traghetti-favignana-trapani"
           echo "ALL DONE"
